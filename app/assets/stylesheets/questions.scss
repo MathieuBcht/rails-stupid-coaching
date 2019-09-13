@@ -5,5 +5,13 @@
 .messagebox {
   width: 300px;
   height: 100px;
-  border: solid 2px black
+  border: solid 1px black
+}
+
+
+p {
+  color: blue;
+  &:hover {
+    color: black;
+  }
 }
